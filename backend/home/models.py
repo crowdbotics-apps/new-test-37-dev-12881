@@ -42,3 +42,11 @@ class Test(models.Model):
     r3 = models.DateField()
     r4 = models.DateTimeField()
     r5 = models.TextField()
+    r6 = models.TimeField(
+        null=True,
+        blank=True,
+    )
+    r7 = models.TimeField(
+        null=True,
+        blank=True,
+    )
